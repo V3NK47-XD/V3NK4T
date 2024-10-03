@@ -1,0 +1,107 @@
+Here’s a quick reference for common Git commands and their syntax:
+
+### 1. **Git Push Syntax**
+   Push changes to a remote repository.
+   ```bash
+   git push <remote> <branch>
+   ```
+   Example:
+   ```bash
+   git push origin main
+   ```
+
+### 2. **Git Pull Syntax**
+   Fetch and integrate changes from a remote repository.
+   ```bash
+   git pull <remote> <branch>
+   ```
+   Example:
+   ```bash
+   git pull origin main
+   ```
+
+### 3. **Git Branch (Showing Branches) Syntax**
+   Show all branches in the repository.
+   ```bash
+   git branch
+   ```
+   To show both local and remote branches:
+   ```bash
+   git branch -a
+   ```
+
+### 4. **Git Commit Syntax**
+   Save changes to the local repository.
+   ```bash
+   git commit -m "Your commit message"
+   ```
+   To commit staged changes with a message.
+
+### 5. **Git Add Syntax**
+   Stage files for commit.
+   ```bash
+   git add <file or directory>
+   ```
+   Example:
+   ```bash
+   git add file.txt
+   git add .
+   ```
+
+### 6. **Git Remove Syntax**
+   Remove a file from the repository and the file system.
+   ```bash
+   git rm <file>
+   ```
+   Example:
+   ```bash
+   git rm file.txt
+   ```
+
+### 7. **Git Origin Syntax**
+   Set the remote repository’s URL (commonly referred to as `origin`).
+   ```bash
+   git remote add origin <remote-repository-URL>
+   ```
+   Example:
+   ```bash
+   git remote add origin https://github.com/user/repo.git
+   ```
+
+### 8. **Git Clone Syntax**
+   Clone a repository from a remote location.
+   ```bash
+   git clone <repository-URL>
+   ```
+   Example:
+   ```bash
+   git clone https://github.com/user/repo.git
+   ```
+
+### 9. **Git Init**
+   Initialize a new local repository.
+   ```bash
+   git init
+   ```
+
+### 10. **Switch Branch Syntax**
+   Switch to an existing branch.
+   ```bash
+   git checkout <branch>
+   ```
+   Or in Git 2.23+:
+   ```bash
+   git switch <branch>
+   ```
+
+### 11. **Clone a Specific Branch Syntax**
+   Clone a repository and checkout a specific branch.
+   ```bash
+   git clone -b <branch> <repository-URL>
+   ```
+   Example:
+   ```bash
+   git clone -b dev https://github.com/user/repo.git
+   ```
+
+These commands form the basics of working with Git, helping you manage and collaborate on code effectively.
